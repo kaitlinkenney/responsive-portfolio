@@ -20,30 +20,13 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-
-    .grads {
-    margin-left: 0px;
-    }   
-
-    .cousins {
-    padding: 20px;
-    float: right;
-    }
-
-    .spooky {
-    padding: 30px;
-    clear: both;
-    }
-
-    .sunset {
-        clear: both;
-        padding: 30px;
-    }
     
-    .caterpillar {
-        clear: both;
-        padding: 30px;
-    }
-}
+
+    
+
+    
+
+    
+    
+    
 
