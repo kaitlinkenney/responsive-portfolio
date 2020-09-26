@@ -66,3 +66,7 @@ Use the Bootstrap CSS Framework to recreate your portfolio.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+link to deployed application: https://kaitlinkenney.github.io/
+
+screenshot: href= screenshot.png
