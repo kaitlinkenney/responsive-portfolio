@@ -7,6 +7,6 @@ A responsive portofolio about me and my experience pertaining to my desired role
 * HTML5
 * CSS
 
-link to deployed application: https://kaitlinkenney.github.io/
+link to deployed application: https://kaitlinkenney.github.io/responsive-portfolio/
 
 screenshot: 
