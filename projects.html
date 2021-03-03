@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" style="style/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="row">
+            <a class="nav-link homelink" href="index.html">Home</a>
+            <a class="nav-link aboutlink" href="about.html">About</a>
+            <a class="nav-link projectslink" href="projects.html">Projects</a>
+        </div>
+    </nav>
+
+
+   <div class="container projects"> 
+         <div class="container shadow rounded firstcontainer">
+            <div class="container shadow rounded secondcontainer">
+                <h1 class="myprojs"> My Projects </h1>
+            </div>
+            <div class="row rowone">
+                <div class="col-sm-4">
+                    <div class="container projectcontainer">
+
+                        <div class="card shadow">
+                            <img src="appSC.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title mt-n4 ml-2">FiveWire Music</h5>
+                                <p class="card-text pl-2 pr-2">"Create playlists & see trending songs! You must have a Spotify account to access FiveWire. If you don't have a FiveWire account, log into the guest account with the username: guestuser and password: password"</p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col container">
+                                            <a href={props.projurl}
+                                                class="btn btn-primary projurl">Live</a>
+                                        </div>
+                                        <div class="col container">
+                                            <a href={props.giturl} class="btn giturl btn-primary mb-3">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" style="font-size: 2.5rem; margin-top: 500px;">
+        <i class="fas fa-envelope iconone fa-l0x"></i>
+        <a href="https://github.com/kaitlinkenney"><i style="color: black;" class="fab fa-github icon"></a></i>
+        <a href="https://www.linkedin.com/in/kaitlinkenney/"><i style="color: black;"
+                class="fab fa-linkedin icon"></a></i>
+
+    </div> 
+</body>
+
+</html>

@@ -1,28 +1,125 @@
 body {
-    background:url(graygradient.jpg) no-repeat center center fixed;
+    background:url(night.jpg) no-repeat center center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size: cover;
     background-size: 1440px;
 }
 
- #navbarText {
-     margin-left: 60%;
-    clear: auto;
-} 
-
-.navbar-text {
-  float: left;  
+.resume {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
-#portfolio {
-    width: 100%;
+.skills {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.nav-link {
+    margin-top: -20px;
+}
+
+.homelink {
+    margin-top: -40px;
+    margin-left: 730px;
+    font-size: 40px;
+ 
+    color: black;
+    padding-right: 20px;
+}
+
+.aboutlink {
+    font-size: 40px;
+    margin-top: -40px;
+    color: black;
+    padding-right: 20px;
+}
+
+.projectslink {
+    font-size: 40px;
+    margin-top: -40px;
+    color: black;
+
+}
+
+.navbar {
+   padding: 45px;
+    background-color: rgb(248, 218, 242);
+    font-style: italic;
+}
+
+.iconone {
+    margin-left: 1080px;
+}
+
+.footer {
+    padding: 22px;
+    background-color:#B8B8B8;
+}
+
+.containerone {
+    background-color: #215;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: 4.5%;
+    opacity: 80%;
+    margin-bottom: 50px;
+    /* padding-right: 4px; */
+    /* padding-left: 10%; */
+}
+
+
+.containertwo {
+    background-color: rgb(233, 229, 229);
+    padding-top: 2%;
+    padding-left: 2px;
+    margin-top: 7px;
+    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
+}
+
+.containerthree {
+    padding-top: 13px;
+}
+
+.containerfour {
+    width: 400px;
+    margin-left: 12px;
+    margin-top: 25px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: rgb(233, 229, 229);
+    padding-bottom: 1%;
+}
+
+.containerfive {
+    margin-top: 25px;
+    padding-top: 3px;
+    background-color: rgb(233, 229, 229);
+    width: 500px;
+    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
+}
+    
+.rows {
     text-align: center;
 }
 
-    
+h3 {
+    text-align: center;
+}
 
-    
+/* .shadow {
+    width: 90%;
+    height: 470px;
+}
+
+.projurl {
+    width: 67px;
+} */
+
+
 
     
 
