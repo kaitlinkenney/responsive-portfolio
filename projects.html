@@ -9,6 +9,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" style="style/css" href="style.css"> -->
     <link rel="stylesheet" style="style/css" href="style.css">
 </head>
 
@@ -22,7 +23,7 @@
     </nav>
 
 
-   <div class="container projects"> 
+   <!-- <div class="container projects">  -->
          <div class="container shadow rounded firstcontainer">
             <div class="container shadow rounded secondcontainer">
                 <h1 class="myprojs"> My Projects </h1>
@@ -30,12 +31,12 @@
             <div class="row rowone">
                 <div class="col-sm-4">
                     <div class="container projectcontainer">
-
+                        <div class="row">
                         <div class="card shadow">
                             <img src="appSC.png" class="card-img-top" />
                             <div class="card-body">
                                 <h5 class="card-title mt-n4 ml-2">FiveWire Music</h5>
-                                <p class="card-text pl-2 pr-2">"Create playlists & see trending songs! You must have a Spotify account to access FiveWire. If you don't have a FiveWire account, log into the guest account with the username: guestuser and password: password"</p>
+                                <p class="card-text pl-2 pr-2">Create playlists & see trending songs! You must have a Spotify account to access FiveWire. If you don't have a FiveWire account, log into the guest account with the username: guestuser and password: password</p>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col container">
@@ -50,10 +51,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container projectcontainer">
+
+                        <div class="card shadow">
+                            <img src="smrttrvl.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title mt-n4 ml-2">SmartTrvl</h5>
+                                <p class="card-text pl-2 pr-2">Travel during the COVID-19 pandemic poses extra risk. Enter the airport code for your flight origin and destination, along with your max budget. You'll be given flights within your price range, and COVID statistics for your given country.</p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col container">
+                                            <a href={props.projurl}
+                                                class="btn btn-primary projurl">Live</a>
+                                        </div>
+                                        <div class="col container">
+                                            <a href={props.giturl} class="btn giturl btn-primary mb-3">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 
 
     <div class="footer" style="font-size: 2.5rem; margin-top: 500px;">

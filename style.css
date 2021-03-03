@@ -110,16 +110,36 @@ h3 {
     text-align: center;
 }
 
-/* .shadow {
-    width: 90%;
-    height: 470px;
+.firstcontainer {
+    margin-top: 3px;
+    padding-top: 2px;
+    padding-right: 36px;
+    padding-bottom: 12px;
+    background-color: rgb(149, 161, 175);
+    opacity: 80%;
 }
 
-.projurl {
-    width: 67px;
-} */
+.secondcontainer {
+    margin-top: 35px;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    background-color: white;
+}
 
+.rowone {
+    margin-top: 12px;
+}
 
+.rowtwo {
+    margin-top: 48px;
+}
+
+.myprojs {
+    padding-top: 6px;
+    text-align: center;
+    /* text-shadow: 2px 2px 2px rgb(206, 201, 201); */
+
+}
 
     
 
