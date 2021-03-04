@@ -1,3 +1,3 @@
-gsap.registerPlugin(MotionPathPlugin, TextPlugin);
+// gsap.registerPlugin(MotionPathPlugin, TextPlugin);
 
-gsap.from(".cardone" {})
+// gsap.from(".cardone" {})
