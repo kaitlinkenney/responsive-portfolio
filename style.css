@@ -184,6 +184,11 @@ h3 {
 
 .projurl {
     width: 70px;
+    margin-left: 5px;
+}
+
+.giturl {
+    margin-left: -5px;
 }
 
 .kaitlin {
@@ -191,8 +196,21 @@ h3 {
     /* padding-top: 40px; */
 }
     
+.projcard {
+    margin-top: 50px;
+    height:450px;
+    max-height: 600px
+}
 
-    
+.fa-desktop {
+    margin-left: 60px;
+}
+
+.projectcontainer {
+    min-height: 450px;
+    max-height: 500px;
+}
+
     
     
 
