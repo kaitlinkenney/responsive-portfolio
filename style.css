@@ -45,7 +45,7 @@ body {
 
 }
 
-.navbar {
+.navbar, .navbarone {
    padding: 45px;
     background-color: rgb(248, 218, 242);
     font-style: italic;
@@ -139,6 +139,17 @@ h3 {
     text-align: center;
     /* text-shadow: 2px 2px 2px rgb(206, 201, 201); */
 
+}
+
+.carousel-size {
+    height: 300px;
+}
+
+.carousel-item img{
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+margin-left: 40px;
 }
 
     
