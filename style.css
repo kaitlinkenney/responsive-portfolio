@@ -85,7 +85,7 @@ body {
 }
 
 .footer {
-    padding: 22px;
+    padding: 15px;
     background-color:#B8B8B8;
 }
 
@@ -96,6 +96,8 @@ body {
     margin-top: 4.5%;
     opacity: 80%;
     margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -103,21 +105,24 @@ body {
     background-color: rgb(233, 229, 229);
     padding-top: 2%;
     padding-left: 2px;
+    padding-right: 20px;
     margin-top: 7px;
 }
 
 .containerthree {
     padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .containerfour {
-    width: 400px;
-    margin-left: 12px;
+    width: 500px;
+    margin-left: 30px;
     margin-top: 25px;
     padding-bottom: 3px;
     padding-top: 3px;
     background-color: rgb(233, 229, 229);
-    padding-bottom: 1%;
+    padding-bottom: 1.5%;
 }
 
 .containerfive {
@@ -125,7 +130,7 @@ body {
     padding-top: 3px;
     background-color: rgb(233, 229, 229);
     width: 500px;
-    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
+  padding-bottom: 1.5%;
 }
     
 .rows {
@@ -168,7 +173,8 @@ h3 {
 }
 
 /* .carousel-size {
-    width: 80px;
+    width: 100px;
+    height: 600px;
 } */
 
 
@@ -203,14 +209,36 @@ h3 {
 }
 
 .fa-desktop {
-    margin-left: 60px;
+    margin-left: 220px;
+    margin-top: 15px;
+    padding-bottom: 2px;
+}
+
+.fa-database {
+    margin-top: 15px;
+    margin-left: 230px;
+    padding-bottom: 2px;
 }
 
 .projectcontainer {
     min-height: 450px;
     max-height: 500px;
+ 
+}
+.checkrows {
+    padding-bottom: 1px;
 }
 
-    
+/* .fa-check-circle {
+    padding-bottom: 1px;
+} */
+
+/* .react {
+    padding-right: 3px;
+} */
+/* .rose {
+    width: -100px;
+    height: 300px;
+}     */
     
 
