@@ -180,14 +180,18 @@ h3 {
 } */
 
 
-.carousel-item img{
-    /* height: 300px;
+/* .carousel-item img{
+    height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 40px; */
-    /* padding-right: 200px;
+    margin-left: 40px; 
+    padding-right: 200px;
     padding-right: 500px;
-    justify-content: center; */
+    justify-content: center;
+} */
+
+.carousel-item {
+    margin-top: 75px;
 }
 
 .projurl {
@@ -242,6 +246,12 @@ h3 {
     margin-left: 20px;
 }
 
+/* .inner-item {
+    text-align: center;
+    img {
+        margin: 0 auto;
+    }
+} */
 /* .btn-primary {
         background-color: rgb(144, 66, 199) !important;
         padding-top: 8px;
