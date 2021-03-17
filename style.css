@@ -80,12 +80,29 @@ body {
     font-style: italic;
 } */
 
-.iconone {
-    margin-left: 1080px;
+.email-link {
+    /* margin-top: 60px; */
+    text-align: center;
+    font-size: 20px;
+    /* padding-top: -15px; */
+}
+
+.icontwo{
+    margin-left: 560px;
+    margin-top: 15px;
+   
+}
+
+.iconthree{
+    /* height: 100px; */
+    margin-left: -10px;
+    margin-bottom: 1px;
+    margin-top: 2.7%;
 }
 
 .footer {
-    padding: 15px;
+    /* height: 50px; */
+    padding: 15px !important;
     background-color:#B8B8B8;
 }
 
